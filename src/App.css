@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 5%;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+  color: #38B6FF;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.container {
+ display: flex;
+ width: 70%;
+ flex-direction: column;
+}
+.body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.showNote-li{
+  border: 2px solid white;
 }
+#selectNote {
+  height: 25px ;
+  margin-left: 10px;
+}
+#addNote{
+  height: 20px ;
+}
+#search-input{
+  height: 20px;
+  width: 100%;
+}
+.button{
+  margin-left: 10px;
+  height: 26px;
+  width: 100px;
+  font-weight: bold;
+  background-color: #38B6FF;
+  border: none;
+  color: #fff;
+  cursor: pointer;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.categoryTitle{
+  margin-top: -8.7%;
+  margin-left: 55%;
+  color: #B87ED6;
+}
+.searchNotes ul li {
+  text-align: center;
+  padding: 5px;
+  list-style-type: none;
+}
+.searchNotes{
+  margin-left: 33%;
+  background-color: #38B6FF;
+  height: 30px;
+  width: 270px;
+}
+.clear-filters {
+  margin-left: 0px;
+}
+.category {
+  margin-top: 50px;
+}
+.section-title {
+  font-size: 25px;
+}
+.search-notes-section {
+  margin-left: 100px;
+}
+.note-data p {
+  margin-bottom: 0
+}
+.bold {
+  font-weight: bold;
 }
